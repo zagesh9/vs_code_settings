@@ -1,0 +1,39 @@
+{
+  "terminal.integrated.inheritEnv": false,
+  "yaml.schemas": {
+    "file:///home/konsultera/.vscode/extensions/atlassian.atlascode-3.6.4/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.jira.enabled": true,
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDelete": false,
+  "atlascode.jira.jqlList": [
+    {
+      "id": "1932ea92-6a5c-4a49-b599-06a39618e4cb",
+      "enabled": true,
+      "name": "My konsultera Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "7fcb4a9b-cec5-48c4-acb9-caa457ea9fc7",
+      "monitor": true
+    }
+  ],
+
+  "terminal.integrated.fontFamily": "DankMono Nerd Font Mono",
+  "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+  "workbench.iconTheme": "material-icon-theme",
+  "custom-ui-style.font.sansSerif": "Dank Mono",
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.2,
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "editor.minimap.enabled": false
+}
